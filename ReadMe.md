@@ -1,6 +1,6 @@
 # My Research
 
-This document is meant to outline and tack the work I do this summer at Georgia Tech, working in Dr Chernova's RAIL Lab.
+This document is meant to outline and track the work I do this summer (2017) at Georgia Tech, working in Dr Chernova's RAIL Lab.
 
 ## Initial problem statement
 
