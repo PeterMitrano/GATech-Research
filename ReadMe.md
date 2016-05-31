@@ -12,6 +12,7 @@ The overall challenge is to apply LfD techniques to autonomous mobile robots tha
  - [ ] Pick a domain, or example for demonstrating and testing
  - [ ] Do more background research on LfD
  - [ ] Get tele-op and navigation working with Turtlebot or Prentice
+ - [ ] Identify a set of failure states that we want to learn from, and what kinds of information we have to learn from
  - [ ] Figure out when we need an intervention, and what kinds of intervention we want
  - [ ] Be the very best, like no one ever was!
 
@@ -31,3 +32,6 @@ Given the kinds of domains that we're working in, it doesn't sounds like deep le
  - Something has blocked it's path, and we're not sure if it's temporary or permanent.
    - Cases where there is _no_ other possible path
    - or when the other path is really long.
+
+So deep learning might be able to help us determine what kinds of obstacles are temporary, and which ones are permanent. But that sounds really hard. I'm not sure which inputs we'd use. For instance, it would be cool if seeing orange traffic cones or signs could indicate construction. But in that case, wouldn't it be way easier to just have a special sign that the robot can read that indicates "construction", so then we'd know not to wait. So we could turn this into a computer vision project about determining if obstacles are temporary, but that sounds really hard. I feel like I need to know more about the failure cases we're trying to handle.
+
