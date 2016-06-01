@@ -18,7 +18,7 @@ The overall challenge is to apply LfD techniques to autonomous mobile robots tha
 
 ## Papers I plan to read
 
- - [ ] Survey of Learning from Demonstration (Chernova et al)
+ - [X] Survey of Learning from Demonstration (Chernova et al)
  - [ ] probably lots more...
 
 ## Stuff I've done
