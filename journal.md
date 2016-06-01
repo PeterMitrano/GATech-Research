@@ -27,3 +27,25 @@ So I finished reading the Survey of LfD, and a bunch of things seem like they wi
  - Since we have few demonstrations, we should consider developing a policy from LfD, but letting that policy evolve with RL.
 
 #### Picking a domain we can demo
+
+Aspects are important when picking a domain:
+
+ - Does it introduce unecessarily difficult problems?
+   - Plz no grasping or manipulation
+ - Does it mirror the real world problems accurately?
+ - Is it portable to other mobile robots?
+
+Real world examples we're considering:
+
+ - Saviok
+ - Aethon
+ - Fetch Robotics (might they have interventions?)
+
+A demo we can actually do here:
+
+ - Environment is the whole second floor. It's task is to deliver items (like cookies) too and from various desks
+ - We give it a static map of the general layout
+ - If failure occurs my phone will alert me and I have to teleop it out
+ - The path I take out is the demonstration, and features about the failure mode are associated with my demonstration
+ - Learning happens
+ - Profit
