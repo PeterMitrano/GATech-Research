@@ -48,4 +48,5 @@ A demo we can actually do here:
  - If failure occurs my phone will alert me and I have to teleop it out
  - The path I take out is the demonstration, and features about the failure mode are associated with my demonstration
  - Learning happens
+ - As learning occurs, I can provide feedback or annotate failed recovery behaviors as I perform the new demonstration
  - Profit
