@@ -19,6 +19,11 @@ The overall challenge is to apply LfD techniques to autonomous mobile robots tha
 ## Papers I plan to read
 
  - [X] Survey of Learning from Demonstration (Chernova et al)
+ - [ ] Robot Programming by Demonstration (Billard et al)
+ - [ ] Effective Reinforcement learning for movile robots (Smart et al)
+ - [ ] The Elements of Statistical Learning: Data Mining, Inference, and Predictions (Hastie et al)
+ - [ ] Making Reinforcement Learning Work on Real Robots (Smart et al)
+ - [ ] Efficient Training of Artifical neural networks for autonomous navigation (Pomerleau)
  - [ ] probably lots more...
 
 ## Stuff I've done
