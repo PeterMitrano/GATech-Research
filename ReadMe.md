@@ -19,6 +19,8 @@ The overall challenge is to apply LfD techniques to autonomous mobile robots tha
 ## Papers I plan to read
 
  - [X] Survey of Learning from Demonstration (Chernova et al)
+ - [X] Multi Heuristic A star (Sandip et al)
+ - [ ] Maximum Margin Planning (Ratliff et al)
  - [ ] Robot Programming by Demonstration (Billard et al)
  - [ ] Effective Reinforcement learning for movile robots (Smart et al)
  - [ ] The Elements of Statistical Learning: Data Mining, Inference, and Predictions (Hastie et al)
