@@ -20,7 +20,7 @@ The overall challenge is to apply LfD techniques to autonomous mobile robots tha
 
  - [X] Survey of Learning from Demonstration (Chernova et al)
  - [X] Multi Heuristic A star (Sandip et al)
- - [ ] Maximum Margin Planning (Ratliff et al)
+ - [X] Maximum Margin Planning (Ratliff et al)
  - [ ] Robot Programming by Demonstration (Billard et al)
  - [ ] Effective Reinforcement learning for movile robots (Smart et al)
  - [ ] The Elements of Statistical Learning: Data Mining, Inference, and Predictions (Hastie et al)
@@ -31,3 +31,4 @@ The overall challenge is to apply LfD techniques to autonomous mobile robots tha
 ## Stuff I've done
  - [X] Setup turtle bot in Gazebo and ran the gmapping and amcl planning demo.
  - [ ] Made a modified version of turtlebot_teleop_key that only works when planning fails
+ - [ ] Built a map of this floor 
