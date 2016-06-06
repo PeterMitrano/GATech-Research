@@ -21,6 +21,7 @@ The overall challenge is to apply LfD techniques to autonomous mobile robots tha
 
  - [X] Survey of Learning from Demonstration (Chernova et al)
  - [X] Multi Heuristic A star (Sandip et al)
+ - [ ] Dynamic Multi Heuristic A star (Sandip et al)
  - [X] Maximum Margin Planning (Ratliff et al)
  - [ ] Robot Programming by Demonstration (Billard et al)
  - [X] Effective Reinforcement learning for movile robots (Smart et al)
