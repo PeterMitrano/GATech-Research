@@ -11,8 +11,9 @@ The overall challenge is to apply LfD techniques to autonomous mobile robots tha
  - [X] Setup desktop and development environment
  - [ ] Pick a domain, or example for demonstrating and testing
  - [ ] Do more background research on LfD
- - [ ] Get tele-op and navigation working with Turtlebot or Prentice
+ - [X] Get tele-op and navigation working with Turtlebot or Prentice
  - [ ] Identify a set of failure states that we want to learn from, and what kinds of information we have to learn from
+ - [ ] Write a teleop interface that enables on failure (or at least alerts. It can be enabled all the time)
  - [ ] Figure out when we need an intervention, and what kinds of intervention we want
  - [ ] Be the very best, like no one ever was!
 
@@ -20,9 +21,10 @@ The overall challenge is to apply LfD techniques to autonomous mobile robots tha
 
  - [X] Survey of Learning from Demonstration (Chernova et al)
  - [X] Multi Heuristic A star (Sandip et al)
+ - [ ] Dynamic Multi Heuristic A star (Sandip et al)
  - [X] Maximum Margin Planning (Ratliff et al)
  - [ ] Robot Programming by Demonstration (Billard et al)
- - [ ] Effective Reinforcement learning for movile robots (Smart et al)
+ - [X] Effective Reinforcement learning for movile robots (Smart et al)
  - [ ] The Elements of Statistical Learning: Data Mining, Inference, and Predictions (Hastie et al)
  - [ ] Making Reinforcement Learning Work on Real Robots (Smart et al)
  - [ ] Efficient Training of Artifical neural networks for autonomous navigation (Pomerleau)
@@ -30,5 +32,5 @@ The overall challenge is to apply LfD techniques to autonomous mobile robots tha
 
 ## Stuff I've done
  - [X] Setup turtle bot in Gazebo and ran the gmapping and amcl planning demo.
- - [ ] Made a modified version of turtlebot_teleop_key that only works when planning fails
- - [ ] Built a map of this floor 
+ - [ ] Made a teleop program that knows when the nav stack fails
+ - [X] Built a map of this floor
