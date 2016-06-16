@@ -10,7 +10,7 @@ The overall challenge is to apply LfD techniques to autonomous mobile robots tha
 
  - [X] Setup desktop and development environment
  - [ ] Pick a domain, or example for demonstrating and testing
- - [ ] Do more background research on LfD
+ - [X] Do more background research on LfD
  - [X] Get tele-op and navigation working with Turtlebot or Prentice
  - [ ] Identify a set of failure states that we want to learn from, and what kinds of information we have to learn from
  - [ ] Write a teleop interface that enables on failure (or at least alerts. It can be enabled all the time)
@@ -21,16 +21,21 @@ The overall challenge is to apply LfD techniques to autonomous mobile robots tha
 
  - [X] Survey of Learning from Demonstration (Chernova et al)
  - [X] Multi Heuristic A star (Sandip et al)
- - [ ] Dynamic Multi Heuristic A star (Sandip et al)
+ - [X] Dynamic Multi Heuristic A star (Sandip et al)
  - [X] Maximum Margin Planning (Ratliff et al)
- - [ ] Robot Programming by Demonstration (Billard et al)
+ - [X] Robot Programming by Demonstration (Billard et al)
  - [X] Effective Reinforcement learning for movile robots (Smart et al)
  - [ ] The Elements of Statistical Learning: Data Mining, Inference, and Predictions (Hastie et al)
  - [ ] Making Reinforcement Learning Work on Real Robots (Smart et al)
  - [ ] Efficient Training of Artifical neural networks for autonomous navigation (Pomerleau)
+ - [ ] Efficiently Using Cost Maps For Planning Complex Maneuvers (Likhachev et al)
+ - [X] Active Learning from Demonstration for Robust Autonomous Navigation (Silver et al)
+ - [ ] Layered costmaps for context-sensitive navigation (Lu et al)
  - [ ] probably lots more...
 
 ## Stuff I've done
  - [X] Setup turtle bot in Gazebo and ran the gmapping and amcl planning demo.
  - [ ] Made a teleop program that knows when the nav stack fails
  - [X] Built a map of this floor
+ - [X] Tuned navigation on vector
+ - [X] wrote straf recovery behavior and added it to vector's nav stack
