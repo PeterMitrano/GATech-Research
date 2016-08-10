@@ -9,13 +9,13 @@ The overall challenge is to apply LfD techniques to autonomous mobile robots tha
 ## First things to do
 
  - [X] Setup desktop and development environment
- - [ ] Pick a domain, or example for demonstrating and testing
+ - [X] Pick a domain, or example for demonstrating and testing
  - [X] Do more background research on LfD
  - [X] Get tele-op and navigation working with Turtlebot or Prentice
- - [ ] Identify a set of failure states that we want to learn from, and what kinds of information we have to learn from
- - [ ] Write a teleop interface that enables on failure (or at least alerts. It can be enabled all the time)
- - [ ] Figure out when we need an intervention, and what kinds of intervention we want
- - [ ] Be the very best, like no one ever was!
+ - [X] Identify a set of failure states that we want to learn from, and what kinds of information we have to learn from
+ - [X] Write a teleop interface that enables on failure (or at least alerts. It can be enabled all the time)
+ - [X] Figure out when we need an intervention, and what kinds of intervention we want
+ - [X] Be the very best, like no one ever was!
 
 ## Papers I plan to read
 
@@ -30,12 +30,14 @@ The overall challenge is to apply LfD techniques to autonomous mobile robots tha
  - [ ] Efficient Training of Artifical neural networks for autonomous navigation (Pomerleau)
  - [ ] Efficiently Using Cost Maps For Planning Complex Maneuvers (Likhachev et al)
  - [X] Active Learning from Demonstration for Robust Autonomous Navigation (Silver et al)
- - [ ] Layered costmaps for context-sensitive navigation (Lu et al)
+ - [X] Layered costmaps for context-sensitive navigation (Lu et al)
  - [ ] probably lots more...
 
 ## Stuff I've done
  - [X] Setup turtle bot in Gazebo and ran the gmapping and amcl planning demo.
- - [ ] Made a teleop program that knows when the nav stack fails
+ - [X] Made a teleop program that knows when the nav stack fails
  - [X] Built a map of this floor
  - [X] Tuned navigation on vector
  - [X] wrote straf recovery behavior and added it to vector's nav stack
+ - [X] implemented SBPL's SMHA* as a ROS Planner
+ - [ ] write costmap layer that learns based on demonstrated trajectories
